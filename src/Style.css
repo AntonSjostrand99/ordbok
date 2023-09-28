@@ -1,0 +1,105 @@
+.mainSection {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+max-width: 600px;
+}
+    
+.dictionary-app {
+text-align: center;
+padding: 20px; 
+}
+
+h1 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+      
+.searchBar {
+border: none;
+outline: none;
+border-radius: 15px;
+padding: 1em;
+background-color: #ccc;
+box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+transition: 300ms ease-in-out;
+margin-right: 1rem;
+}
+          
+.searchButton {
+--key-text-color: #969faf;
+--docsearch-key-shadow: inset 0 -2px 0 0 #cdcde6,inset 0 0 1px 1px #fff,0 1px 2px 1px rgba(30,35,90,0.4);
+--docsearch-key-gradient: linear-gradient(-225deg,#d5dbe4,#f8f8f8);
+border: none;
+background: var(--docsearch-key-gradient);
+border-radius: 3px;
+box-shadow: var(--docsearch-key-shadow);
+color: var(--key-text-color);
+height: 2.5em;
+text-align: center;
+padding: 0.6em;
+margin: 0 0.6em;
+display: inline-block;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 1em;
+min-width: 1em;
+line-height: 1em;
+user-select: none;
+}
+      
+.error {
+color: red;
+margin-top: 10px;
+}
+       
+.wordSection {
+margin-top: 20px;
+}
+  
+.word {
+ font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+      
+.phonetic {
+font-style: italic;
+}
+       
+.meanings {
+ font-size: 20px;
+ margin-top: 20px;
+}
+      
+.partOfSpeech {
+font-weight: bold;
+}
+         
+.definitions {
+margin-top: 10px;
+list-style: none;
+padding: 0;
+}
+      
+.definition {
+margin-top: 10px;
+}
+      
+.example {
+font-style: italic;
+} 
+
+.audio {
+margin-top: 20px;
+}
+
+.audio-player {
+width: 100%;
+margin-top: 10px;
+}
+    
+    
+
+    

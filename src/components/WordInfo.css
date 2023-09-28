@@ -1,0 +1,16 @@
+.card_word {
+border: 2px solid black;
+}
+    
+.card_meaning {
+border: 2px solid black;
+}
+
+.card_audio {
+border: 2px solid black;
+}
+    
+.word2 {
+text-transform: capitalize;
+}
+    
