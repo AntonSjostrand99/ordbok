@@ -36,7 +36,7 @@ const WordInfo = ({ wordData, error }) => {
   const phoneticsList = wordData.phonetics.map((phonetic, index) => (
     <div key={index} className="audio-item">
       {phonetic.audio && (
-        <audio controls className="audio-player">
+        <audio data-testid="audio" controls className="audio-player">
           <source src={phonetic.audio} type="audio/mpeg" />
         </audio>
       )}
@@ -61,7 +61,7 @@ const WordInfo = ({ wordData, error }) => {
 
             {/* Visa ljuduppspelningar om de finns */}
       {wordData.phonetics.length > 0 && (
-        <div className="audio">
+        <div className="audio" >
           <h3>Ljuduppspelningar</h3>
           {phoneticsList}
         </div>
